@@ -1,22 +1,16 @@
-import React from 'react';
+import { Outlet } from 'react-router-dom'
+
+
 import './App.css';
-
-// NEW
 import Title from './Title';
-import POPOSList from './POPOSList';
-import Footer from './Footer';
-
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Title />
-      <POPOSList />
-      <Footer />
+      <Outlet />
     </div>
   );
 }
 
 export default App;
-
-
