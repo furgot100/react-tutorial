@@ -20,7 +20,7 @@
 	flex: 2;
 }
 
-.POPOSDetails .POPOSDetails-image img {
+.POPOSDetails .POPOSDetails-image > img {
 	width: 100%;
 }
 
